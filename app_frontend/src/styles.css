@@ -1,0 +1,81 @@
+:root{
+  --azul-oscuro:#1f2a44;
+  --rosado:#f6a5c0;
+  --rosado-fuerte:#e56b9f;
+}
+
+body{
+  background:#f5f6fa;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+  background:#1f2a44;
+  color:white;
+  padding:20px;
+  font-size:22px;
+  font-weight:600;
+}
+
+/* CONTENEDOR */
+
+.container{
+  width:90%;
+  margin:auto;
+  margin-top:40px;
+}
+
+/* FORMULARIO */
+
+.card{
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom:30px;
+}
+
+input{
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  margin-bottom:15px;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
+
+/* BOTON */
+
+button{
+  background-color: var(--rosado);
+  border:none;
+  padding:10px;
+  width:100%;
+  font-weight:bold;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover{
+  background-color:#f49ac2;
+}
+
+/* TABLA */
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th{
+  background-color:var(--azul-oscuro);
+  color:white;
+  padding:10px;
+}
+
+td{
+  padding:10px;
+  border-bottom:1px solid #eee;
+}
